@@ -1,2 +1,5 @@
 # NKC-Portfolio
-A personal site to showcase some of my work
+I was set the task of building a portfolio website using HTML & CSS.
+
+please see below a screen shot of my live website
+
