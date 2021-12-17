@@ -32,6 +32,10 @@ nav ul li a:hover {
   background-color: var(--main-dark-color);
 }
 
+h1 {
+  font-size: xx-large;
+}
+
 /*------- CONTAINER -------*/
 .wrapper {
   display: inline-block;
@@ -87,6 +91,8 @@ nav ul li a:hover {
 .image {
   position: relative;
   width: 400px;
+  padding: 30px;
+  justify-content: space-evenly;
 }
 
 .image__img {
@@ -128,6 +134,7 @@ nav ul li a:hover {
 .container-1, .container-2, .container-3 {
   display: inline-flexbox;
   margin-left: 30px;
+  justify-content: space-evenly;
 }
 
 
@@ -153,10 +160,7 @@ nav ul li a:hover {
   margin: 30px;
 }
 
-section{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
+
 
 .section-1 {
 	background:var(--main-white-color);
@@ -167,6 +171,7 @@ section{
   display: flex;
   flex-direction: column;
   background: var(--main-white-color);
+  justify-content: space-evenly;
 }
 
 .page-footer ul {
@@ -189,7 +194,7 @@ section{
 
   .page-footer {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
   }
