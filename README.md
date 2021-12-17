@@ -3,5 +3,5 @@ I was set the task of building a portfolio website using HTML & CSS.
 
 please see below a screen shot of my live website
 
-![Live Screen Shot](screenShot.png)
+![Live Screen Shot](/assets/images/screenShot.png)
 
