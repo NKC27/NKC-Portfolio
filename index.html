@@ -1,196 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>NKC Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap" rel="stylesheet">
+  <!-- CSS Link Local -->
+  <link rel="stylesheeet" href="./styles.css" />
+
+  <title class="">NKC</title>
 </head>
+
 <body>
-<!-- Navigation Section -->
-  <section class="wrapper">
-    <header class="page-header">
-      <nav>
-        <h2 class="logo">Nick Clarke Portfolio Website</h2>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Section About Me-->
-    <section id="about" class="section-1">
-      <div class="container-1">
-        <img class="avatar" src="assets/images/profile_pic.jpg" alt="nick clarke profile picture"> 
-        <img class="avatar" src="assets/images/html icon.png" alt="html icon">
-        <img class="avatar" src="assets/images/css icon.png" alt="css icon">
-        <img class="avatar" src="assets/images/javascript-icon-png-17.png" alt="javascript icon">
-        <h1 id="about">About</h1>
-        <p class="p-section">
-          Hello. My name is Nick Clarke. Welcome to my site
-          <br><br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nobis enim iste maxime odit, nisi maiores fuga dolores impedit, sint laudantium itaque est quam, cupiditate rerum aliquam eum tenetur sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit ad, fuga, consequatur culpa tempora non similique itaque porro deleniti illo dicta vero unde ut recusandae obcaecati necessitatibus? Nulla, illum.
-        </p>
-      </div>
-    </section>
-    <!-- Section Portfolio -->
-    <section class="container-2">
-      <header>
-        <h1 id="portfolio">Portfolio</h1>
-        <p>
-          Please click the links to view some of my projects.
-        </p>
-      </header>
-      <!-- 1st Project Large Image -->
-<section id="about" class="section-1">
-      <div class="image-1">
-        <figure class="img-section"> 
-          <div class="image-1">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg"
-            alt="graphic design" height="700px">
-            <h2>MY 1st PROJECT</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam nam porro debitis aliquid, deleniti et vitae quia, reiciendis recusandae dolor numquam ipsam vel iure eaque dolorem. Ab perspiciatis sint nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, placeat provident.
-            </p>
-          <div class="image-overlay">
-            <div class="image-title">HTML PROJECT</div>
-              <a class="image-description" href="https://nkc27.github.io/prework-about-me/">
-              Please click here
+  <!-- Left sidebar Nvabar Section -->
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-warning">
+
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+          <img src="./assets/Images/profile_pic.jpeg" alt="hugenerd" width="160" height="160"
+            class="rounded-circle align-items-center mt-5 mx-auto d-block border border-dark">
+
+          <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+            <h1 class="fs-5 d-none d-sm-inline mt-5 sideTitle">Nick K Clarke</h1>
+            <!-- <div class="row icons">
+                        <a href="#"><img src="./assets/Images/GitHub-Mark-32px.png"></a>
+                        <a href="#"><img src="./assets/Images/LI-In-Bug copy.png" width="32px" height="32px"></a>
+                      </div> -->
+          </a>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start text-black "
+            id="menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link align-middle px-0 text-black ">
+                <!-- Bootstrap Icon link SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+                </svg><span class="ms-1 d-none d-sm-inline">Home</span>
               </a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="nav-link px-0 align-middle text-black">
+                <!-- Bootstrap Icon link SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z" />
+                  <path
+                    d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" />
+                </svg>
+                <span class="ms-1 d-none d-sm-inline">Portfolio</span></a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link px-0 align-middle text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+                </svg> <span class="ms-1 d-none d-sm-inline">About Me</span></a>
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav-link px-0 align-middle text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                </svg> <span class="ms-1 d-none d-sm-inline">Contact Me</span> </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/NKC27" class="nav-link px-0 align-middle text-black">
+                <img src="./assets/Images/GH2.png" width="16" height="16"> <span
+                  class="ms-1 d-none d-sm-inline">GitHub</span> </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/nick-clarke-8a8b70224/"
+                class="nav-link px-0 align-middle text-black">
+                <img src="./assets/Images/LI-In-Bug copy.png" width="16" height="16"> <span
+                  class="ms-1 d-none d-sm-inline">LinkedIn</span> </a>
+            </li>
+          </ul>
+          <hr>
+          <!-- <div class="row d-flex justify-content-around mt-5">
+                    <img src="./assets/Images/GH2.png" alt="github" style="width: 100px;">
+                    <img src="./assets/Images/LI-In-Bug copy.png" alt="linkedin" style="width: 100px;">
+                  </div> -->
+        </div>
+      </div>
+
+      <!-- Main Content Area -->
+      <div class="col py-3 container">
+        <img src="./assets/Images/img1.png" class="card-img-top img-fluid" alt="...">
+
+
+        <!-- <h2 class="text-white rgba-black-light p-2 bg-dark mt-5">About Me</h2>
+            <p class="lead">
+                I am currently studying to become a Full-Stack Web Developer.
+            </p>
+            <ul class="list-unstyled">
+              <hr>
+              <li><h3>Introduction</h3> 
+                <p class="lead">Hi, and welcome to my porfolio website. I am persuing a career in Web Development because I enjoy problem-solving, being creative with code in creating professional front-end and back-end solutions, being able to learn new skills and techniques, enjoy working cloesly with a team on a variety of projects, both large and small and the freedom of being able to work in different environments.</p>
+              </br>
+              </li> -->
+
+        <!-- Portfolio Title -->
+        <h2 id="portfolio" class="bg-dark text-white mt-5">Portfolio</h2>
+        <p class="lead">Please take a look at some of the projects I have/am working on.</p>
+
+        <!-- 1st Project Here -->
+        <div class="card mb-3 mt-5 border-dark" style="max-width: 1340px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/Images/SMU-Snapshot.png" class="img-fluid rounded-start" alt="serch marvel universe">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="text-danger">Latest Project</h4>
+                <h5 class="card-title">Search Marvel Universe</h5>
+                <p class="card-text">In this project I worked as part of a team to come up with ideas were we could
+                  incorporate using two API's to fetch information corrolating to the users input. We decided to go with
+                  a fun themed site were fans of Marvel Superheros & Villains could search their favourite character and
+                  have results of background info, images, comics, games and movies. </p>
+                <hr>
+                <p class="lead"><a href="https://nkc27.github.io/Search-Marvel-Universe/"
+                    alt="live demo of search marvel universe">To view a live demo click here.</a> </p>
+                <p class="lead"><a href="https://github.com/NKC27/Search-Marvel-Universe" alt="GitHub Repo link">Link to
+                    my Github repository</a> </p>
+
               </div>
             </div>
-            </figure>
-          </section>
-      <!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg"
-            alt="graphic design" width="300px" height="300px">
-            <h2>HTML Project</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
-            </p>
-          <div class="image-overlay">
-            <div class="image-title">HTML PROJECT</div>
-              <a class="image-description" href="https://nkc27.github.io/prework-about-me/">
-              Please click here
-              </a>
           </div>
         </div>
-      </figure>
-<!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg" alt="graphic design"
-            width="300px" height="300px">
-            <h2>CSS Project</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
-            </p>
-          <div class="image-overlay">
-            <h1 class="image-title">CSS PROJECT</h1>
-              <a class="image-description" href="https://nkc27.github.io/Horiseon-Services/">
-              Please click here
-            </a>
+        </ul>
+        <!-- Second project Feature - Day Planner -->
+        <div class="card mb-3 mt-5 border-dark" style="max-width: 1340px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./assets/Images/CaptureWorkDayScheduler.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="text-danger">Featured Project 2</h4>
+                <h5 class="card-title">Work Day Planner</h5>
+                <p class="card-text">For this project, I was tasked with creating a planner that would save information
+                  to the local storage so when refreshed the information would still be valid in the browser. I also
+                  used moment.js for structuring the time & date and colour coded the hourly sections to show if they
+                  were present, future or past. </p>
+                <hr>
+                <p class="lead"><a href="https://nkc27.github.io/Work-Day-Planner/" alt="live demo link">To view a live
+                    demo click here.</a> </p>
+                <p class="lead"><a href="https://github.com/NKC27/Work-Day-Planner" alt="GitHub Repo link">Link to my
+                    Github repository</a> </p>
+
+              </div>
+            </div>
           </div>
         </div>
-      </figure>
-<!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg" alt="graphic design"
-            width="300px" height="300px">
-            <h2>JAVASCRIPT</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
-            </p>
-          <div class="image-overlay">
-            <h1 class="image-title">JAVASCRIPT</h1>
-              <a class="image-description" href="#">
-              Please click here
-              </a>
+
+        <!-- 3x Thumbnail cards for remaining projects -->
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card border-dark mt-5">
+                    <img class="card-img-top" alt="Bootstrap Thumbnail First" src="./assets/Images/quiz.png" />
+                    <div class="card-block">
+                      <h5 class="card-title mt-5 text-danger text-center">
+                        <hr>
+                        The Javascript Code Quiz
+                      </h5>
+                      <p class="card-text lead">
+                        I created a quiz that has a timer, score result, local storage for high scores and upon
+                        selecting the answers it btings up the next set of questions using javascript.
+                      </p>
+                      <p>
+                        <a class="btn btn-danger mr-5" href="https://nkc27.github.io/The-Javascript-Code-Quiz/"
+                          alt="live demo link">Live Demo</a> <a class="btn btn-dark"
+                          href="https://github.com/NKC27/The-Javascript-Code-Quiz" alt="GitHub repo link">GitHub</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border-dark mt-5">
+                    <img class="card-img-top" alt="Bootstrap Thumbnail Second" src="./assets/Images/Screenshot.jpeg" />
+                    <div class="card-block">
+                      <h5 class="card-title mt-5 text-danger text-center">
+                        <hr> Weather Dashboard API
+                      </h5>
+                      <p class="card-text lead">
+                        I designed a weather dashboard to show current weather conditions as well as showing the user
+                        the next 5 days weather report. I used Openweathermap API to get the results.
+                      </p>
+                      <p>
+                        <a class="btn btn-danger mr-5" href="https://nkc27.github.io/Weather-Forecast-Dashboard/">Live
+                          Demo</a> <a class="btn btn-dark"
+                          href="https://github.com/NKC27/Weather-Forecast-Dashboard">GitHub</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card border-dark mt-5">
+                    <img class="card-img-top" alt="Bootstrap Thumbnail Third"
+                      src="./assets/Images/Password-Generator.png" />
+                    <div class="card-block">
+                      <h5 class="card-title mt-5 text-danger text-center">
+                        <hr>
+                        Password Generator
+                      </h5>
+                      <p class="card-text lead">
+                        I have created a password generator to help users create a secure password using uppercase,
+                        lower case, numbers and special characters.
+                      </p>
+                      <p>
+                        <a class="btn btn-danger mr-5" href="https://nkc27.github.io/Password-Generator/">Live Demo</a>
+                        <a class="btn btn-dark" href="https://github.com/NKC27/Password-Generator">GitHub</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </figure>
-<!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg" alt="graphic design"
-            width="300px" height="300px">
-            <h2>APPLICATION</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
+
+        <!-- About Me Section -->
+        <div class=" col py-3 ">
+          <h2 id="about" class="bg-dark text-white mt-5">About Me</h2>
+          <p class="lead">
+            I am currently studying to become a Full-Stack Web Developer through The University of Birmingham on the
+            Trilogy Bootcamp.
+          </p>
+          <ul class="list-unstyled">
+            <p class="lead">Hi, welcome to my website. I am persuing a career in Web Development because I enjoy
+              problem-solving, being creative with code in creating professional front-end and back-end solutions, being
+              able to learn new skills and techniques whilst working on projects, I enjoy working cloesly with a
+              team/teams on a variety of projects and development, both large and small with the freedom of being able
+              to work in different environments. I welcome any questions and have links set out to view my Github,
+              LinkedIn and a contact form below if you would like to email me personally. Thank you for veiwing my page.
             </p>
-          <div class="image-overlay">
-            <h1 class="image-title">APPLICATION 1</h1>
-              <a class="image-description" href="#">
-              Please click here
-              </a>
-          </div>
+            </br>
+            </li>
         </div>
-      </figure>
-<!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg" alt="graphic design"
-            width="300px" height="300px">
-            <h2>APPLICATION 2</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
-            </p>
-          <div class="image-overlay">
-            <h1 class="image-title">APPLICATION 2</h1>
-              <a class="image-description" href="#">
-              Please click here
-              </a>
-          </div>
+
+        <!-- Badge Icons for HTML, CSS, JS -->
+
+
+
+
+        <!--Grid row-->
+
+        <!--Grid column-->
+
+        <!--Grid row-->
+        <div class=" mt-5 pl-5">
+          <h2 id="contact" class="bg-dark text-white mt-5">Contact Me</h2>
+          <form class="row g-3" action="https://formsubmit.co/n.clarke2785@gmail.com" method="POST">
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="col-md-8">
+              <label for="emailInfo" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-4">
+              <label for="phoneNumber" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phoneNumber" placeholder="+44 (01234) 123-456">
+            </div>
+            <div class="col-md-12">
+              <label for="comments" class="form-label">Comments, questions?</label>
+              <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </div>
+          </form>
         </div>
-      </figure>
-<!------ Card Images Section -------->
-      <figure class="img-section">
-        <div class="image">
-          <img class="image-img" src="./assets/images/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg" alt="graphic design"
-            width="300px" height="300px">
-            <h2>APPLICATION 3</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ratione, adipisci culpa asperiores deserunt nisi quis vero repellat nihil officiis ipsa laboriosam
-            </p>
-          <div class="image-overlay">
-            <h1 class="image-title">APPLICATION 3</h1>
-              <a class="image-description" href="#">
-              Please click here
-              </a>
-          </div>
-        </div>
-      </figure>
-    </section>
-    <!-- Section  Contact Me -->
-    <section class="container-3">
-      <main class="wrapper">
-        <header>
-          <h1 id="contact">Contact</h1>
-            <p>
-              contact me via clicking here
-            </p>
-        <div class="image"> 
-          <a href="mailto:nick.clarke@nkc.co.uk">
-            <img class="image-img" src="assets/images/pad & pen.jpg" alt="pad and pen" width="150px" height="300px">
-        </div>
-        </header>
-      </main>
-    </section>
-  </section>
-  <!-- Footer Section -->
-  <footer class="page-footer">
-    <h5> © Copyright 2021. Nick Clarke</h5>
-  </footer>
+
+        <!-- Footer Section -->
+        <footer class="page-footer mt-5 bg-dark text-white text-center">
+          <h5 class="lead"> © Copyright 2021. Nick Clarke</h5>
+        </footer>
+        <!-- End div for main section -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section  -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="./assets/script.js"></script>
 </body>
+
 </html>
