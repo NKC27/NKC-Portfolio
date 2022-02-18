@@ -5,5 +5,5 @@ Please click here for [live view](https://nkc27.github.io/NKC-Portfolio/)
 
 Please see below a screen shot of my live website with a live link
 
-![Live Screen Shot](/NKC-Portfolio/assets/images/screenshot-update-portfolio.png)
+![Live Screen Shot](/assets/images/screenshot-update-portfolio.png)
 
