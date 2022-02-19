@@ -31,3 +31,6 @@ I have updated my current portfolio site to now include some of my projects.
 
 Please click here for [live view](https://nkc27.github.io/NKC-Portfolio/)
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
