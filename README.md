@@ -1,6 +1,6 @@
 # NKC Portfolio Site
 
-I have updated my current portfolio site to now include some of my projects.
+I have updated my current portfolio site to now include some of my projects from the 2nd phase of the Full-Stack Bootcamp.
 
 
 
@@ -8,8 +8,8 @@ I have updated my current portfolio site to now include some of my projects.
 ## Features
 
 - New Bootstrap layout 
-- Live links to my projects
-- Screen shots of projects
+- Updated Live links to my projects
+- Updated Screen shots of projects
 - Smooth scroll css
 - Contact form 
 - Downloadable PDF link
