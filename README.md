@@ -24,11 +24,11 @@ I have updated my current portfolio site to now include some of my projects from
 
 ## Screenshots
 
-![App Screenshot](/assets/images/update_SShot.png)
+![App Screenshot](/assets/images/updateSShot.png)
 
-![App Screenshot](/assets/images/update_SShot2.png)
+![App Screenshot](/assets/images/updateSShot2.png)
 
-![App Screenshot](/assets/images/update_SShot3.png)
+![App Screenshot](/assets/images/updateSShot3.png)
 
 
 ## Demo
